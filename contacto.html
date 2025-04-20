@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy Solare - Paneles Solares</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="servicios.html">SERVICIOS</a></li>
+                    <li><a href="nosotros.html">NOSOTROS</a></li>
+                    <li><a href="contacto.html">CONTACTANOS</a></li>
+                </ul>
+            </nav>
+            <div class="logo">
+                <img src="imagenes/logopng.png" alt="logo">
+            </div>
+            <button class="menu-toggle" aria-label="abrir menu">☰</button>
+        </div>
+    </header>
+
+    <div class="contacto">
+        <h2>CONTACTANOS</h2>
+        <p>LA MEJOR OPCIÓN EN PANELES</p>
+    </div>
+
+    <div class="contact-section">
+        <div class="contact-info-simple">
+            <div class="info-item-simple">
+                <h3>TELEFONO</h3>
+                <p><a href="tel:+529997819121">+52 999 781 9121</a></p>
+            </div>
+
+            <div class="info-item-simple">
+                <h3>EMAIL</h3>
+                <p><a href="mailto:solara.agr@gmail.com">solara.agr@gmail.com</a></p>
+            </div>
+
+            <div class="info-item-simple">
+                <h3>HORARIO</h3>
+                <ul>
+                    <li>LUNES: 09:00AM-07:30PM</li>
+                    <li>MARTES: 09:00AM-07:30PM</li>
+                    <li>MIERCOLES: 09:00AM-07:30PM</li>
+                    <li>JUEVES: 09:00AM-07:30PM</li>
+                    <li>VIERNES: 09:00AM-07:30PM</li>
+                    <li>SABADO: 09:00AM-07:30PM</li>
+                    <li>DOMINGO: CERRADO</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="imagen-contacto">
+            <img src="imagenes/cliente.jpg" alt="Cliente satisfecho">
+            <p>SOLARA ENERGY<br>CLIENTE SATISFECHO</p>
+        </div>
+    </div>
+
+    <footer class="footer-compact">
+        <div class="container">
+            <div class="footer-compact-content">
+                <div class="footer-brand-compact">
+                    <img src="imagenes/logopng.png" alt="Solara Energy" class="footer-logo-compact">
+                    <p class="footer-slogan-compact">Energía limpia para un futuro sostenible</p>
+                </div>
+                
+                <div class="footer-contact-compact">
+                    <h4 class="contact-title-compact">CONTACTANOS</h4>
+                    <div class="contact-info-compact">
+                        <p><i class="fas fa-envelope"></i> solara.agr@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> +52 999 781 9121</p>
+                    </div>
+                    <div class="social-links-compact">
+                        <a href="https://www.facebook.com/Solaraenergiarenovable" target="_blank" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/solara.energy/" target="_blank" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom-compact">
+                <p class="copyright-compact">&copy; 2025 Solara Energy. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-menu').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

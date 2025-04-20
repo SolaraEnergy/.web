@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy Solare - Paneles Solares</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="servicios.html">SERVICIOS</a></li>
+                    <li><a href="nosotros.html">NOSOTROS</a></li>
+                    <li><a href="contacto.html">CONTACTANOS</a></li>
+                </ul>
+            </nav>
+            <div class="logo">
+                <img src="imagenes/logopng.png" alt="logo">
+            </div>
+            <button class="menu-toggle" aria-label="abrir menu">☰</button>
+        </div>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </header>
+
+        <!-- Sección de Servicios -->
+    <section class="seccion-servicios">
+        <div class="container">
+            <div class="titulo-seccion">
+                <h2>SERVICIOS</h2>
+            </div>
+
+            <div class="servicios-grid">
+                <!-- Servicio 1 -->
+                <div class="servicio-card" data-servicio-numero="IP">
+                    <div class="servicio-imagen">
+                        <img src="imagenes/servicio1.png" alt="Ingeniería de Proyectos">
+                    </div>
+                    <div class="servicio-contenido">
+                        <div class="servicio-icono">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <h3>INGENIERÍA DE PROYECTOS</h3>
+                        <p>Cubrimos las necesidades de ingeniería y diseño para las instalaciones eléctricas en todos los sectores de construcción, desde pequeños negocios hasta grandes proyectos industriales y comerciales. Siempre considerando las condiciones de diseño y seguridad establecidas en las Normas Oficiales Mexicanas aplicables a las instalaciones eléctricas.</p>
+                    </div>
+                </div>
+                
+                <!-- Servicio 2 -->
+                <div class="servicio-card" data-servicio-numero="MTBT">
+                    <div class="servicio-imagen">
+                        <img src="imagenes/servicio2.png" alt="Media y Baja Tensión">
+                    </div>
+                    <div class="servicio-contenido">
+                        <div class="servicio-icono">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3>MEDIA TENSIÓN Y BAJA TENSIÓN</h3>
+                        <p>Instalación de subestaciones, transformadores, plantas de emergencia, tableros, salidas eléctricas.</p>
+                    </div>
+                </div>
+                
+                <!-- Servicio 3 -->
+                <div class="servicio-card" data-servicio-numero="VME">
+                    <div class="servicio-imagen">
+                        <img src="imagenes/servicio3.png" alt="Material Eléctrico">
+                    </div>
+                    <div class="servicio-contenido">
+                        <div class="servicio-icono">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3>VENTA DE MATERIAL ELÉCTRICO</h3>
+                        <p>Suministro e instalación de material eléctrico.</p>
+                    </div>
+                </div>
+                
+                <!-- Servicio 4 -->
+                <div class="servicio-card" data-servicio-numero="VIPS">
+                    <div class="servicio-imagen">
+                        <img src="imagenes/servicio4.png" alt="Paneles Solares">
+                    </div>
+                    <div class="servicio-contenido">
+                        <div class="servicio-icono">
+                            <i class="fas fa-solar-panel"></i>
+                        </div>
+                        <h3>VENTA, INSTALACIÓN Y MANTENIMIENTO DE PANELES SOLARES</h3>
+                        <p>Venta, instalación y mantenimiento de paneles solares residencial, comercial e industrial</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer-compact">
+        <div class="container">
+            <div class="footer-compact-content">
+                <div class="footer-brand-compact">
+                    <img src="imagenes/logopng.png" alt="Solara Energy" class="footer-logo-compact">
+                    <p class="footer-slogan-compact">Energía limpia para un futuro sostenible</p>
+                </div>
+                
+                <div class="footer-contact-compact">
+                    <h4 class="contact-title-compact">CONTACTANOS</h4>
+                    <div class="contact-info-compact">
+                        <p><i class="fas fa-envelope"></i> solara.agr@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> +52 999 781 9121</p>
+                    </div>
+                    <div class="social-links-compact">
+                        <a href="https://www.facebook.com/Solaraenergiarenovable" target="_blank" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/solara.energy/" target="_blank" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom-compact">
+                <p class="copyright-compact">&copy; 2025 Solara Energy. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-menu').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
+    
